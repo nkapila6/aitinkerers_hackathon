@@ -1,0 +1,19 @@
+[project]
+name = "hackathon"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ipython>=8.36.0",
+    "jupyter>=1.1.1",
+    "pandas>=2.2.3",
+    "python-dotenv>=1.1.0",
+    "replicate>=1.0.6",
+    "torch>=2.8.0.dev20250502",
+    "torchaudio>=2.6.0.dev20250502",
+    "torchvision>=0.22.0.dev20250502",
+]
+
+[[tool.uv.index]]
+url = "https://download.pytorch.org/whl/nightly/cpu"
